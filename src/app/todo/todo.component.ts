@@ -9,8 +9,9 @@ export class TodoComponent implements OnInit {
 todos: string[];
 
   constructor() { }
-  this.todos = ["Zrob to", "Zrob tamto", "Zrob cos jeszcze"];
+  this.todos = ["Zrob to", "Zrob tamto", "Zrob cos jeszcze"];}
   ngOnInit() {
-  }
 
 }
+
+
