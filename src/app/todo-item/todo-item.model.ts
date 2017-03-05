@@ -1,14 +1,14 @@
-export class ToItem {
+export class TodoItem {
 title: string;
 detail: string;
-dueDate; Date;
+dueDate: Date;
 createDate: Date;
 
-constructor(title: string, detail: string, ){
+constructor(title: string, detail: string, dueDate:Date ){
 
     this.createdDate = new Date();
     this.title = title;
     this.detail = detail;
     this.dueDate = dueDate;
-}
+ }
 }
