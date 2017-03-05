@@ -6,7 +6,7 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./todo-item.component.css']
 })
 export class TodoItemComponent implements OnInit {
-@Input() todo: string;
+@Input() todo: TodoItem;
 
   constructor() { }
 
