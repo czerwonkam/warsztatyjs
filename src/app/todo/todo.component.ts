@@ -8,10 +8,10 @@ import { Component, OnInit } from '@angular/core';
 export class TodoComponent implements OnInit {
 todos: string[];
 
-  constructor() { }
+  constructor() { 
   this.todos = ["Zrob to", "Zrob tamto", "Zrob cos jeszcze"];}
   ngOnInit() {
 
 }
-
+}
 
